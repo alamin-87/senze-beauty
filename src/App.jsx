@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router'
 import Layout from './Layouts/Layout'
+import Signup from './Components/Signup/Signup'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,8 +17,8 @@ function App() {
        <Route path='/portfolio' element={<Portfolio/>}/>
        <Route path='/blog' element={<Blog/>}/> */}
       </Route>
-      {/* <Route path='/signup' element={<Signup/>}/>
-      <Route path='/login' element={<Login/>}/> */}
+      <Route path='/signup' element={<Signup/>}/>
+      {/* <Route path='/login' element={<Login/>}/> */}
       {/* <Route path='/forgetPassword' element={<ForgetPass/>}/> */}
     </Route>
   ))
