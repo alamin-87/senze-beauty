@@ -1,0 +1,4 @@
+@import "tailwindcss";
+.container p{
+    @apply text-[100px] text-black font-serif font-[700]
+}
