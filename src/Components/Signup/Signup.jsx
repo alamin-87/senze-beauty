@@ -39,14 +39,14 @@ const Signup = () => {
             <div className="form">
               <div className="signup_form_content">
                 <h2>Create an account</h2>
-                <p>Already have an account? <Link to="#">Login</Link></p>
+                <p>Already have an account? <Link to="/login">Login</Link></p>
               </div>
               <div className="signup_form">
                 <form>
                   <label>Name</label>
                   <input type="text" placeholder='Enter your name' required />
                   <label>Email</label>
-                  <input type="text" placeholder='Enter your Email ID' required />
+                  <input type="email" placeholder='Enter your Email ID' required />
                   <label>Phone number</label>
                   <input type="number" placeholder='Enter your phone number' required />
                   <label>Password</label>
