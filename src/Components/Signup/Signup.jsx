@@ -5,6 +5,9 @@ import { Link } from 'react-router';
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { IoLogoTwitter } from "react-icons/io5";
+import { FaFacebook } from "react-icons/fa";
+import { FaGoogle } from "react-icons/fa";
+
 
 
 const Signup = () => {
@@ -33,10 +36,37 @@ const Signup = () => {
                 </div>
             </div>
         </nav>
-        <div className="main_body">
-            <div className="form"></div>
-            <div className="img"></div>
-        </div>
+            <div className="form">
+              <div className="signup_form_content">
+                <h2>Create an account</h2>
+                <p>Already have an account? <Link to="#">Login</Link></p>
+              </div>
+              <div className="signup_form">
+                <form>
+                  <label>Name</label>
+                  <input type="text" placeholder='Enter your name' required />
+                  <label>Email</label>
+                  <input type="text" placeholder='Enter your Email ID' required />
+                  <label>Phone number</label>
+                  <input type="number" placeholder='Enter your phone number' required />
+                  <label>Password</label>
+                  <input type="text" placeholder='Enter password' required />
+                  <label>Confirm password</label>
+                  <input type="text" placeholder='confirm password' required />
+                  <button type='submit'>Create account</button>
+                </form>
+              </div>
+              <div className="extra_signup">
+                <p> <span></span>Or login with<span></span></p>
+                <div className="extra_signup_icon">
+                  <a href="#"><FaFacebook /> Facebook</a>
+                  <a href="#"><FaGoogle /> Google</a>
+                </div>
+              </div>
+            </div>
+            <div className="img">
+              <img src="images/Img_frame.png " alt="img_frame" />
+            </div>
       </section>
     </>
   )
