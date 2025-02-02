@@ -17,7 +17,8 @@ const Signup = () => {
                     <span ><FaArrowLeft className='signup_icon' /></span>
                 </div>
                 <div className="signup_navbar_col2">
-                    <Link to="#"><img src="images/logo.png" alt="logo" /></Link>
+                    <Link to="#"><img src="images/logo.png" alt="logo" className='logo' /></Link>
+                    <Link to="#"><img src="images/logo1.png" alt="logo1" className='logo1' /></Link>
                 </div>
                 <div className="signup_navbar_col3">
                     <div className="signup_icon1">

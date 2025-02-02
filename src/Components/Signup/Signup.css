@@ -1,21 +1,27 @@
 @import "tailwindcss";
 .signup_navbar_row{
-    @apply px-[18px] bg-[#F4F4F4] flex flex-col items-center py-[28px]
+    @apply lg:px-[18px] bg-[#F4F4F4] flex lg:flex-col items-center lg:py-[28px] flex-row-reverse justify-between px-[30px] py-[20px]
 }
 .signup_navbar_col1{
-    @apply bg-[#304557] rounded-full p-[20px]
+    @apply bg-[#304557] rounded-full p-[12px] md:p-[20px]
 }
 .signup_navbar_col1 span{
     @apply text-white text-[20px]
 }
 .signup_navbar_col2{
-    @apply pt-[70px] pb-[30px]
+    @apply lg:pt-[70px] lg:pb-[30px]
+}
+.signup_navbar_col2 .logo{
+    @apply hidden lg:block
+}
+.signup_navbar_col2 .logo1{
+    @apply lg:hidden w-[150px] h-[50px] md:w-[270px] md:h-[92px]
 }
 .signup_navbar_col3{
-    @apply flex flex-col gap-[40px]
+    @apply flex-col hidden lg:block
 }
 .signup_navbar_col3 .signup_icon1{
-    @apply border-solid border-[#A67F29] border-[2px] rounded-full w-[60px] h-[60px] flex justify-center items-center bg-transparent
+    @apply border-solid border-[#A67F29] border-[2px] rounded-full w-[60px] h-[60px] flex justify-center items-center bg-transparent lg:mt-[27px]
 }
  .signup_icon1 a{
     @apply bg-[#304557]  rounded-full p-[16px] text-[20px] text-white z-99
