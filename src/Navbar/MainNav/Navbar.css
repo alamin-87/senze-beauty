@@ -1,4 +1,37 @@
 @import "tailwindcss";
-.container p{
-    @apply text-[100px] text-black font-serif font-[700]
+.navbar{
+    @apply bg-[#F4F4F4] lg:absolute
+}
+.navbar_row{
+    @apply lg:px-[18px]  lg:py-[20px] flex lg:flex-col items-center flex-row-reverse justify-between px-[30px] py-[20px] md:py-[32px] md:px-[48px]
+}
+.navbar_col1{
+    @apply bg-[#304557] rounded-full p-[10px] md:w-[50px] md:h-[50px] flex items-center justify-center
+}
+.navbar_col1 .navbar_icon{
+    @apply text-3xl
+}
+.navbar_col1 span{
+    @apply text-white text-[20px]
+}
+.navbar_col2{
+    @apply lg:pt-[60px] lg:pb-[24px]
+}
+.navbar_col2 .navbar_logo{
+    @apply hidden lg:block
+}
+.navbar_col2 .navbar_logo1{
+    @apply lg:hidden w-[150px] h-[50px] md:w-[270px] md:h-[92px]
+}
+.navbar_col3{
+    @apply flex-col hidden lg:block
+}
+.navbar_col3 .navbar_icon1{
+    @apply border-solid border-[#A67F29] border-[2px] rounded-full w-[60px] h-[60px] flex justify-center items-center bg-transparent lg:mt-[16px]
+}
+ .navbar_icon1 a{
+    @apply bg-[#304557]  rounded-full p-[16px] text-[20px] text-white z-99
+}
+.navbar_col3 .logout_icon{
+    @apply bg-gradient-to-r from-[#A67F29] to-[#E89F00]
 }

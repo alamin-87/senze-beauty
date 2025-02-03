@@ -1,0 +1,10 @@
+@import "tailwindcss";
+.resnav_part{
+    @apply relative
+}
+.resnav{
+    @apply absolute
+}
+.resnav_col2{
+    @apply p-[20px] bg-black
+}

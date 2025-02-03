@@ -6,14 +6,15 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import Layout from './Layouts/Layout'
 import Signup from './Components/Signup/Signup'
 import Login from './Components/Login/Login'
+import Home from './Pages/Home'
 
 function App() {
   const [count, setCount] = useState(0)
   const Myrouter=createBrowserRouter(createRoutesFromElements(
     <Route>
       <Route path='/' element={<Layout/>}>
-       {/* <Route index element={<Home/>}/>
-       <Route path='/about' element={<About/>}/>
+       <Route index element={<Home/>}/>
+       {/* <Route path='/about' element={<About/>}/>
        <Route path='/services' element={<Services/>}/>
        <Route path='/portfolio' element={<Portfolio/>}/>
        <Route path='/blog' element={<Blog/>}/> */}
