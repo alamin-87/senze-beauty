@@ -1,0 +1,17 @@
+@import "tailwindcss";
+.home_hero_section{
+    @apply bg-[url('/images/home_hero_bg.png')] bg-cover bg-no-repeat bg-center pb-[240px] md:pb-[300px] lg:pb-[160px]
+}
+.home_hero_img img{
+    @apply h-[390px] md:h-[744px] lg:h-[640px] w-full
+}
+.home_hero_text{
+    @apply absolute flex justify-center items-center lg:top-[490px] pl-[10px] md:pl-[100px] lg:pl-[300px]
+}
+.home_hero_text h2{
+    @apply w-[342px] md:w-[540px] lg:w-[1020px] text-[48px] md:text-[64px] lg:text-[120px]  text-[#304557] font-[700] font-sans text-center 
+    lg:leading-[120px] mt-[20px] md:mt-[30px]
+}
+.home_hero_text h2 span{
+    @apply text-[#A67F29]
+}
