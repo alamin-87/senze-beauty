@@ -1,0 +1,24 @@
+@import "tailwindcss";
+.home_about{
+    @apply bg-[url('/images/herobg2.png')] bg-cover bg-center bg-no-repeat pt-[10px] pb-[36px] md:pb-[48px] lg:py-[20px]
+}
+.home_about_row{
+    @apply flex flex-wrap justify-center items-center lg:gap-[40px] relative
+}
+.home_about_col1 img{
+    @apply lg:w-[860px] lg:h-[750px] lg:pl-[110px]
+}
+.home_about_col2{
+    @apply flex flex-col justify-center items-center lg:items-start lg:mt-[380px]
+}
+.home_about_col2 h2{
+    @apply text-[40px] md:text-[48px] lg:text-[64px] text-[#304557] font-[700] font-sans
+}
+.home_about_col2 p{
+    @apply md:w-[552px] lg:w-[488px] text-[16px] md:text-[18px] lg:text-[20px] text-[#000000] font-[400] font-sans opacity-[75%] mt-[18px] lg:mt-[25px]
+}
+.home_about_col2 a{
+    @apply bg-gradient-to-r from-[#304557] to-[#098FC9] py-[20px] px-[109px] md:py-[24px] md:px-[254px] lg:py-[26px] lg:px-[64px]
+    text-[20px] lg:text-[32px] text-white font-[400] font-sans mt-[32px] md:mt-[48px] lg:mt-0 lg:absolute lg:rotate-[270deg] lg:right-[-144px]
+     lg:top-[40%]
+}
