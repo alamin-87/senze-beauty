@@ -1,0 +1,29 @@
+@import "tailwindcss";
+.home_services{
+    @apply bg-[url('/images/heome_services_bg.png')]
+}
+.home_services_row{
+    @apply lg:pl-[128px] flex flex-col lg:flex-row py-[30px] md:py-[40px] lg:pt-[125px] lg:pb-[85px]
+}
+.home_services_row_content{
+    @apply grid grid-cols-1 md:grid-cols-2 mt-[17px] md:mt-[40px] lg:mt-0
+}
+.home_services_col1{
+    @apply flex lg:gap-[17px]
+}
+.home_services_row_button .home_services_button2{
+    @apply block lg:hidden text-[#304557]  text-2xl md:text-3xl
+}
+.home_services_row_button .home_services_button1{
+    @apply hidden lg:block p-[23px] bg-[#304557] text-white text-3xl
+}
+.home_services_row_body_img{
+    @apply hidden md:block
+}
+.home_services_row_body_allimg{
+    @apply flex flex-col lg:gap-[14px]
+}
+.home_services_col2_header h2{
+    @apply hidden md:block text-[32px] lg:text-[48px] text-transparent bg-clip-text bg-gradient-to-r from-[#304557] to-[#098FC9] 
+    font-[600] lg:font-[700] font-sans
+}
