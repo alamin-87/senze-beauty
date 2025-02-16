@@ -15,7 +15,8 @@ const HomeServices = () => {
                     <button className='home_services_button1'><IoIosArrowBack /></button>
                     <button className='home_services_button2'><FaArrowCircleLeft /></button>
                 </div>
-                <div className="home_services_row_content">
+                <div className="home_services_row_all_content">
+                  <div className="home_services_row_content">
                   <div className="home_services_col1">
                     <div className="home_services_row_main_img">  
                       <img src="images/home_services_img1.png" alt="img1" />
@@ -40,11 +41,12 @@ const HomeServices = () => {
                             <h3>Hair Treatment Type 1</h3>
                             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                               dolore magna aliqua.</p>
-                            <h3>Price</h3>
-                            <p>Hair Extension type 1 . USD 50.00</p>
+                            <h4>Price</h4>
+                            <p className='last_text'>Hair Extension type 1 . USD 50.00</p>
                             <Link to="#">Schedule Visit</Link>
                         </div>
                     </div>
+                  </div>
                   </div>
                 </div>
             </div>

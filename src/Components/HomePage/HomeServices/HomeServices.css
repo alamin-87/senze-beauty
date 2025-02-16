@@ -6,10 +6,13 @@
     @apply lg:pl-[128px] flex flex-col lg:flex-row py-[30px] md:py-[40px] lg:pt-[125px] lg:pb-[85px]
 }
 .home_services_row_content{
-    @apply grid grid-cols-1 md:grid-cols-2 mt-[17px] md:mt-[40px] lg:mt-0
+    @apply flex flex-wrap mt-[17px] md:mt-[40px] lg:mt-0 lg:gap-[64px]
 }
 .home_services_col1{
-    @apply flex lg:gap-[17px]
+    @apply flex md:gap-[17px]
+}
+.home_services_col2{
+    @apply flex flex-col lg:items-end
 }
 .home_services_row_button .home_services_button2{
     @apply block lg:hidden text-[#304557]  text-2xl md:text-3xl
@@ -21,9 +24,41 @@
     @apply hidden md:block
 }
 .home_services_row_body_allimg{
-    @apply flex flex-col lg:gap-[14px]
+    @apply flex flex-col md:gap-[14px]
+}
+.home_services_col2_body_text{
+    @apply flex flex-col lg:items-end
 }
 .home_services_col2_header h2{
     @apply hidden md:block text-[32px] lg:text-[48px] text-transparent bg-clip-text bg-gradient-to-r from-[#304557] to-[#098FC9] 
-    font-[600] lg:font-[700] font-sans
+    font-[600] lg:font-[700] font-sans leading-[42px] md:mt-[48px] lg:mt-0
+}
+.home_services_col2_body_text h3{
+    @apply text-[16px] md:text-[20px] lg:text-[32px] text-[#304557] font-sans font-[600] mt-[16px] md:mt-[32px] lg:mt-[60px]
+}
+.home_services_col2_body_text h4{
+    @apply text-[16px] md:text-[20px] lg:text-[32px] text-[#304557] font-sans font-[600] mt-[16px] md:mt-[20px] lg:mt-[12px]
+}
+.home_services_col2_body_text p{
+    @apply flex w-[300px] md:w-[630px] lg:w-[230px] text-[12px] md:text-[16px] lg:text-[20px] text-[#000] font-[400] font-sans opacity-[75%] mt-[12px] md:mt-[16px] lg:mt-[20px] lg:text-end lg:justify-end
+}
+.home_services_col2_body_text .last_text{
+    @apply w-[300px] md:w-[630px] lg:w-[198px] text-[12px] md:text-[16px] lg:text-[20px] text-[#000] font-[400] font-sans opacity-[75%] mt-[12px] md:mt-[16px] lg:mt-[20px] lg:text-start
+}
+.home_services_col2_body_text a{
+    @apply py-[16px] px-[122px] md:py-[20px] md:px-[261px] lg:py-[26px] lg:px-[72px] bg-gradient-to-r from-[#304557] to-[#098FC9] text-[16px] md:text-[18px]
+    lg:text-[26px] text-white font-sans font-[400] mt-[32px] md:mt-[36px] lg:mt-[80px]
+}
+
+.home_services_row_main_img img{
+    @apply lg:w-[600px] lg:h-[661px]
+}
+.home_services_row_body_img img{
+    @apply lg:w-[230px] lg:h-[211px]
+}
+.home_services_col2_body{
+    @apply flex
+}
+.home_services_col2_body_span span{
+    @apply lg:block w-[1px] h-[620px] bg-[#D3CFCE] lg:mr-[20px] lg:mt-[40px]
 }
