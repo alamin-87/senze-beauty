@@ -14,6 +14,7 @@ const HomeServices = () => {
                 <div className="home_services_row_button">
                     <button className='home_services_button1'><IoIosArrowBack /></button>
                     <button className='home_services_button2'><FaArrowCircleLeft /></button>
+                    <h2>Hair Treatment</h2>
                 </div>
                 <div className="home_services_row_all_content">
                   <div className="home_services_row_content">

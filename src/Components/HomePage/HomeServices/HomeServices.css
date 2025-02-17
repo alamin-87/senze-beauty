@@ -1,6 +1,6 @@
 @import "tailwindcss";
 .home_services{
-    @apply bg-[url('/images/heome_services_bg.png')]
+    @apply bg-[url('/images/heome_services_bg.png')] bg-cover bg-center bg-no-repeat
 }
 .home_services_row{
     @apply lg:pl-[128px] flex flex-col lg:flex-row py-[30px] md:py-[40px] lg:pt-[125px] lg:pb-[85px]
@@ -61,4 +61,8 @@
 }
 .home_services_col2_body_span span{
     @apply lg:block w-[1px] h-[620px] bg-[#D3CFCE] lg:mr-[20px] lg:mt-[40px]
+}
+.home_services_row_button h2{
+    @apply md:hidden mt-[21px] md:mt-0 text-[32px] text-transparent bg-clip-text bg-gradient-to-r from-[#304557] to-[#098FC9] 
+    font-[600] lg:font-[700] font-sans
 }

@@ -1,0 +1,40 @@
+@import "tailwindcss";
+.home_contact{
+    @apply bg-[url('/images/home_contact_bg.png')] bg-cover bg-center bg-no-repeat
+}
+.home_contact_row{
+    @apply lg:ml-[200px] flex flex-col-reverse md:flex-col lg:flex-row justify-between
+}
+.home_contact_col1 form{
+    @apply pt-[60px] pb-[150px] px-[16px] md:py-[48px] md:px-[20px] lg:py-[62px] lg:px-[40px] bg-gradient-to-t from-[#304557] to-[#18476F]
+}
+.home_contact_col1 form h2{
+    @apply text-[32px] lg:text-[120px] text-white font-sans font-[700] lg:leading-[100px] mb-[25px] md:mb-[37px] lg:mb-[60px]
+}
+.home_contact_col1 form label{
+    @apply text-[12px] md:text-[16px] lg:text-[24px] text-white font-sans font-[400]
+}
+.home_contact_col1 form input{
+    @apply outline-0 border-b-[1px] border-solid border-white opacity-[25%] text-white w-[171px] md:w-[320px] lg:w-[300px]
+}
+.form_input_name{
+    @apply flex justify-between gap-[16px] md:gap-[20px] lg:gap-[24px]
+}
+.form_input_phn_mail{
+    @apply flex lg:flex-col justify-between my-[24px] md:my-[32px] lg:my-[60px] gap-[16px] md:gap-[20px] lg:gap-[60px]
+}
+.home_contact_col1 form .form_input_phn_mail input{
+    @apply lg:w-full
+}
+.home_contact_col1 form .input_message{
+    @apply w-full
+}
+.home_contact_col1 form .input_submit{
+    @apply border-0 opacity-[100%] py-[12px] px-[24px] md:py-[16px] md:px-[32px] lg:py-[18px] lg:px-[26px] bg-white text-[12px] md:text-[16px] lg:text-[24px]
+    text-[#304557] font-sans font-[400] mt-[32px] md:mt-[48px] lg:mt-[60px] cursor-pointer
+}
+
+/* ------------------------------------------- */
+.home_contact_col2_header h2{
+    @apply w-[358px] md:w-full lg:w-[484px] text-[24px] md:text-[32px] lg:text-[42px] text-[#304557] font-[700]
+}
